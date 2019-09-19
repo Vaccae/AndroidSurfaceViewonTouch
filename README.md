@@ -1,0 +1,2 @@
+# AndroidSurfaceViewonTouch
+利用SurfaceView的ontouchevent事件来划矩形，通过NDK OpenCV截取出来通过RecyclerView显示

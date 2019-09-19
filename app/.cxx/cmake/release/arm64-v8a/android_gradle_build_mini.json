@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "D:\\Business\\DemoTEST\\android\\surfaceviewdemo\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\PersonalStudio\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Business\\DemoTEST\\android\\surfaceviewdemo\\app\\.cxx\\cmake\\release\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "libopencv_java4-Release-arm64-v8a": {
+      "artifactName": "libopencv_java4",
+      "abi": "arm64-v8a",
+      "output": "D:\\PersonalStudio\\OpenCV-android-sdk\\sdk\\native\\libs\\arm64-v8a\\libopencv_java3.so"
+    },
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "D:\\PersonalStudio\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Business\\DemoTEST\\android\\surfaceviewdemo\\app\\.cxx\\cmake\\release\\arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "D:\\Business\\DemoTEST\\android\\surfaceviewdemo\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libnative-lib.so"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  勾选的样式图放到res目录下的drawable中，然后在这里使用   -->
+
+    <item android:drawable="@mipmap/checkbox" android:state_checked="true"/>
+    <!--  未勾选的样式图放到res目录下的drawable中，然后在这里使用   -->
+    <item android:drawable="@mipmap/checkboxnull" android:state_checked="false"/>
+    <item android:drawable="@mipmap/checkboxnull"/>
+</selector>

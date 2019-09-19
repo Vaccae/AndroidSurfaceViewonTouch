@@ -1,0 +1,8 @@
+# ninja log v5
+13	3595	0	CMakeFiles/native-lib.dir/cvcanny.cpp.o	b15806f7d0dbbb5f
+0	3700	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	896fe5c69052f055
+3700	4063	0	D:/Business/DemoTEST/android/surfaceviewdemo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e5b59a0faab9a99b
+6	4083	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	896fe5c69052f055
+4083	4670	0	D:/Business/DemoTEST/android/surfaceviewdemo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e5b59a0faab9a99b
+5	4056	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	896fe5c69052f055
+4056	4887	0	D:/Business/DemoTEST/android/surfaceviewdemo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e5b59a0faab9a99b

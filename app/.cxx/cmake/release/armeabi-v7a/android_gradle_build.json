@@ -1,0 +1,55 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/Business/DemoTEST/android/surfaceviewdemo/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"D:\\PersonalStudio\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Business\\DemoTEST\\android\\surfaceviewdemo\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"libopencv_java4-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_java4",
+			"buildType" : "release",
+			"output" : "D:/PersonalStudio/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "4002529385"
+		},
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\PersonalStudio\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Business\\DemoTEST\\android\\surfaceviewdemo\\app\\.cxx\\cmake\\release\\armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/PersonalStudio/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/PersonalStudio/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:\\PersonalStudio\\OpenCV-android-sdk\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Business/DemoTEST/android/surfaceviewdemo/app/src/main/cpp/cvcanny.cpp",
+					"workingDirectory" : "D:/Business/DemoTEST/android/surfaceviewdemo/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/PersonalStudio/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/PersonalStudio/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:\\PersonalStudio\\OpenCV-android-sdk\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Business/DemoTEST/android/surfaceviewdemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/Business/DemoTEST/android/surfaceviewdemo/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/Business/DemoTEST/android/surfaceviewdemo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "4002529385"
+		}
+	},
+	"toolchains" : 
+	{
+		"4002529385" : 
+		{
+			"cCompilerExecutable" : "D:/PersonalStudio/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/PersonalStudio/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
